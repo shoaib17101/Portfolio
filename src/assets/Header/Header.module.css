@@ -70,9 +70,7 @@ a:hover{
 }
 #Offcanvas{
     width: 350px;
-    height: 100vh;
-    background: inherit;
-    border: 1px solid;
+    height: auto;
     padding: 5px 15px;
     position: absolute;
     top: 0;
@@ -130,6 +128,11 @@ p{
     }
     #menu{
         display: block;
+    }
+}
+@media (max-width:768px) {
+    #Offcanvas{
+        width: 100%;
     }
 }
 

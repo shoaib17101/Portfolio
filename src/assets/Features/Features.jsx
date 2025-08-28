@@ -2,8 +2,8 @@ import Style from '../Features/Features.module.css'
 function Features(){
     return(
         <>
-
-        <div id={Style.feature} className='container-fluid'>
+    <span id='features'></span>
+        <div id={Style.feature} >
             <h3 id={Style.red}>Features</h3>
             <h1>What I Do</h1>
             <div id={Style.container} >
