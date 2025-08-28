@@ -1,0 +1,90 @@
+#welcome {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px 10px;
+    align-items: center;
+    gap: 24px;
+}
+
+#left {
+    width: 50%;
+    padding-top: 80px;
+
+}
+
+#red {
+    color: red;
+    font-size: 50px;
+}
+
+h2 {
+    display: inline;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#para {
+    font-size: 14px;
+    width: 100%;
+    font-weight: bold;
+    padding: 15px 0px;
+    text-align: justify;
+}
+
+#btns {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#btns>button {
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    border: none;
+    color: red;
+    transition: all .6s;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+    padding: 14px 25px;
+    height: 40px;
+    width: 140px;
+    transition: all 0.6s;
+}
+#Headings{
+    width: 100%;
+}
+
+#btns>button:hover {
+    background: linear-gradient(145deg, rgb(156, 51, 139), darkred, rgb(179, 11, 165));
+    color: white;
+    transform: translateY(-10px);
+}
+
+#heroimg {
+   width: 500px;
+   height: 500px;
+}
+
+
+#right {
+    width: 50%;
+}
+@media (max-width:1200px) {
+    #welcome{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #left{
+        width: 100%;      
+    }
+    h2,#red{
+        font-size: 25px;
+    }
+    #heroimg {
+    max-width: 100%;
+    max-height: 100%;
+}
+    
+}

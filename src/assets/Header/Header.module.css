@@ -1,0 +1,135 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 1px;
+    height: 100px;
+    padding: 15px 40px;
+    position: sticky;
+    top: 0;
+    width: 100vw;
+}
+
+#logo{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 1px solid;
+}
+.logoleft{
+    display: flex;
+    width: 5%;
+    gap: 5px;
+    align-items: center;
+}
+#nav{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+a{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    font-family: Roboto,sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+a:hover{
+    color: red;
+    transition: color;
+}
+#btn{
+    height: 50px;
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    width: 105px;
+    border: none;
+    color: red;
+    transition: all .6s;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+    padding: 12px 25px;
+}
+.right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#btn:hover{
+    cursor: pointer;
+    background: linear-gradient(145deg,darkred,maroon,rgb(151, 51, 38));
+    color: white;
+
+}
+#menu{
+    width: 25px;
+    display: none;
+}
+#Offcanvas{
+    width: 350px;
+    height: 100vh;
+    background: inherit;
+    border: 1px solid;
+    padding: 5px 15px;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    background: #fff;
+    gap: 25px;
+}
+.offcanvasleft{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.offcanvasleft>button{
+font-size: 15px;
+border-radius: 50%;
+padding: 20px;
+border: none;
+background: #f5f5f5;
+color: red;
+}
+#offcanvasnav{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    list-style: none;
+    margin-top: 30px;
+}
+p{
+    margin: 20px 0px;
+}
+#socials{
+    margin: 20px 0px;
+}
+.socialbtns{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0px;
+}
+.socialbtns >button{
+    padding: 20px;
+    font-size: 17px;
+    border: none;
+    background: #e2e8ec;
+    border-radius: 50%;
+}
+@media (max-width:1200px) {
+    header{
+        padding: 15px 20px;
+    }
+    #nav{
+        display: none;
+    }
+    #menu{
+        display: block;
+    }
+}
+
