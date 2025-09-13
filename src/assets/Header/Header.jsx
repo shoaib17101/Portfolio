@@ -17,7 +17,7 @@ function Header(){
                     <li><a href="#resume">Resume</a></li>
                     <li><a href="">portfolio</a></li>
                     <li><a href="">Certificate</a></li>
-                    <li><a href="">contact</a></li>
+                    <li><a href="#contact">contact</a></li>
                 </ul>
                 <div id={Styles.socials}>
                     <h2>Find With Me</h2>
@@ -42,7 +42,7 @@ function Header(){
                     <li><a href="#resume">Resume</a></li>
                     <li><a href="">portfolio</a></li>
                     <li><a href="">Certificate</a></li>
-                    <li><a href="">contact</a></li>
+                    <li><a href="#contact">contact</a></li>
                 </ul>
                 <div className={Styles.right}>
                     <button id={Styles.btn}>Hire Me</button>

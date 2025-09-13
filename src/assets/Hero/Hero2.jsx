@@ -4,9 +4,10 @@ function Hero2(){
     return(
         
         <div id={Styles.welcome}>
+            <p id='welcome'></p>
         <div id={Styles.left} >
             <div id={Styles.Headings}>
-            <h3  >Welcome to my world</h3>
+            <p >Welcome to my world</p>
             <h2>Hi, I’m</h2><span id={Styles.red}>  Muhammad Shoaib </span>
             <h2>a Frontend Developer</h2>
             </div>

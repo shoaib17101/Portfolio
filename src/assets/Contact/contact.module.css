@@ -1,0 +1,72 @@
+.mainhed{
+    font-size: 60px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+.para1{
+    font-size: 15px;
+    font-weight: lighter;
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+}
+#myname{
+    font-size: 35px;
+    font-family: Roboto, sans-serif;
+}
+#job{
+    font-size: 15px;
+    color: grey;
+    font-weight: lighter;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+    box-shadow: 0px 0px 1px grey;
+    border: none;
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    
+
+}
+form>input{
+    border: none;
+    border-radius: 5px;
+    height: 45px;
+    margin: 12px 0px;
+}
+label{
+    font-size: 17.5px;
+    font-weight: 500;
+}
+#cd{
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+}
+@media  (max-width: 768px) {
+    .mainhed {
+        font-size: 40px;
+    }
+    #myname {
+        font-size: 25px;
+    }
+    #job {
+        font-size: 12px;
+    }
+    .cont {
+        flex-direction: column;
+        align-items: center;
+    }
+    #right {
+        width: 100%;
+    }
+    #nm, #em, #msg {
+        width: 100%;
+    }
+    #contact {
+        flex-direction: column;
+    }
+    
+}

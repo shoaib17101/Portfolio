@@ -16,24 +16,30 @@ header{
     height: 55px;
     border-radius: 50%;
     border: 1px solid;
+    padding: 5px;
 }
 .logoleft{
     display: flex;
-    width: 5%;
-    gap: 5px;
+    gap: 15px;
     align-items: center;
+}
+.logoleft>h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: bold;
 }
 #nav{
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 25px;
 }
 a{
-    font-size: 16px;
+    font-size: 17px;
     text-decoration: none;
     color: black;
-    font-family: Roboto,sans-serif;
-    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     text-transform: uppercase;
 }
 a:hover{
@@ -41,17 +47,15 @@ a:hover{
     transition: color;
 }
 #btn{
-    height: 50px;
     background: linear-gradient(145deg, #e2e8ec, #ffffff);
     box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
-    width: 105px;
     border: none;
     color: red;
     transition: all .6s;
     border-radius: 5px;
     font-size: 13px;
     cursor: pointer;
-    padding: 12px 25px;
+    padding: 14px 25px;
 }
 .right{
     display: flex;
