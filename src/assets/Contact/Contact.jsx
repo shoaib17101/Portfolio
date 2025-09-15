@@ -5,10 +5,10 @@ function Contact(){
  return(
     <>
     <section>
-        <p className={style.para1 } >Contact Us</p>
+        <p className={style.para1 } id='contact' >Contact Us</p>
         <h1 className={`${style.mainhed} text-center ` }>Contact With Me</h1>
         <div className="cont d-flex gap-5 p-5" id={style.contact}>
-            <div className="left col-lg-4">
+            <div className="col-lg-4">
                 <div className="card p-2" id={style.cd}>
                 
                         <img src="https://hucoder.netlify.app/Images/contact1.png" alt="Contact us image" className=" img-fluid p-2" />
@@ -18,7 +18,7 @@ function Contact(){
                         <p>Phone: 03069605369</p>
                         <p>Email: shoaibkhan171015393@gmail.com</p>
                     
-                    <div className="d-flex gap-3 p-3">
+                    <div className="d-flex gap-1 p-3" width="100%">
                         <button className="btn btn-primary">LinkedIn</button>
                         <button className="btn btn-secondary">Facebook</button>
                         <button className="btn btn-secondary">Indeed</button>
