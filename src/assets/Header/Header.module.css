@@ -9,6 +9,7 @@ header{
     position: sticky;
     top: 0;
     width: 100vw;
+    z-index: 1;
 }
 
 #logo{
@@ -126,6 +127,10 @@ p{
 @media (max-width:1200px) {
     header{
         padding: 15px 20px;
+    }
+    #btn{
+        padding: 10px;
+        font-size: 10px;
     }
     #nav{
         display: none;

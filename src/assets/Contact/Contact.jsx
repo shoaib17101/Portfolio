@@ -7,7 +7,7 @@ function Contact(){
     <section>
         <p className={style.para1 } id='contact' >Contact Us</p>
         <h1 className={`${style.mainhed} text-center ` }>Contact With Me</h1>
-        <div className="cont d-flex gap-5 p-5" id={style.contact}>
+        <div className="cont d-flex gap-5 p-2" id={style.contact}>
             <div className="col-lg-4">
                 <div className="card p-2" id={style.cd}>
                 
